@@ -29,3 +29,5 @@ You can better use computers by clearly defining what they are and then seeing w
 
 
 Above all breath, stay relaxed and enjoy… <span style="color: #59ff62;">▊</span>
+
+> <a href="mailto:prnc@protonmail.com">---&forall;&exist;</a>
