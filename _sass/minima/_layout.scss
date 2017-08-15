@@ -3,7 +3,6 @@
  */
 .site-header {
   border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -51,7 +50,7 @@
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $pop-color;
     border-radius: 5px;
     text-align: right;
 
@@ -106,7 +105,6 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
 
@@ -199,7 +197,10 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(2.5);
+  font-weight: 600;
+  line-height: 1.2;
+  color: darken($pop-color, 15%);
 }
 
 
@@ -212,6 +213,7 @@
 }
 
 .post-title {
+
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
