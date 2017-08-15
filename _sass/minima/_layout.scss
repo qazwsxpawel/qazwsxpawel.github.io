@@ -180,6 +180,7 @@
 
 .page-heading {
   @include relative-font-size(1.25);
+  font-family: Courier, monospaced;
 }
 
 .post-list {
