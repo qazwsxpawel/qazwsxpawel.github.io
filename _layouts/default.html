@@ -7,10 +7,18 @@
 
     {% include header.html %}
 
+    <div class="logo">
+      <center>
+        <a href="{{ "/" | relative_url }}">
+          <img src="/assets/logo.png" alt="" width="20%" height="20%">
+        </a>
+      </center>
+    </div>
+
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <div class="wrapper">
+      {{ content }}
+    </div>
     </main>
 
     {% include footer.html %}
