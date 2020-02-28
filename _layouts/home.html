@@ -1,23 +1,11 @@
 ---
-layout: default
+layout: home-layout
 ---
+<article class="post" >
 
+    <div class="card" style="color:lightgrey">
+        <h3>Digital Arts Studio</h1>
+        <h4>by Pawel Ceranka</h2>
+    </div>
 
-<div class="home">
-
-
-  <h1 class="page-heading">&dollar; <em>horror vacui</em> <span style="color: #59ff62;">▊</span></h1>
-  {{ content }}
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-</div>
+</article>
